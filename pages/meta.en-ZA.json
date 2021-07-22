@@ -8,6 +8,10 @@
     "title": "Docs",
     "type": "nav"
   },
+  "farms": {
+    "title": "Farms",
+    "type": "nav"
+  },
   "examples": {
     "title": "Examples",
     "type": "nav"

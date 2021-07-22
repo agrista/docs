@@ -8,6 +8,10 @@
     "title": "Docs",
     "type": "nav"
   },
+  "farms": {
+    "title": "Plaas",
+    "type": "nav"
+  },
   "examples": {
     "title": "Ejemplos",
     "type": "nav"
