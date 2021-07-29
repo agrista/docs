@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @@include("../partials/head.html", {
+    "pageTitle": "Agri24 Hulp"
+    })
+</head>
+<body class="bg-light" style="padding-top: 84px;">
+
+<!-- MODALS
+==================================================-->
+<!--@@include("../partials/modals.html")-->
+
+<!-- NAVBAR
+================================================== -->
+@@include("../partials/navbar.html", {
+"classList": "navbar-light fixed-top bg-white border-bottom",
+"type": "fluid"
+})
+
+<!-- BREADCRUMB
+================================================== -->
+<nav class="d-lg-none bg-gray-800">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+
+                <!-- Breadcrumb -->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                <span class="text-white">
+                  Hulp
+                </span>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  Inleiding
+                </span>
+                    </li>
+                </ol>
+
+            </div>
+            <div class="col-auto">
+
+                <!-- Toggler -->
+                <div class="navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse"
+                            aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</nav>
+
+<!-- CONTENT
+================================================== -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-xl-2 px-lg-0 border-bottom border-bottom-lg-0 border-right-lg border-gray-300 sidenav sidenav-left">
+
+                @@include("../partials/sidenav.html")
+
+            </div>
+            <div class="col-12 col-lg-6 col-xl-8 offset-lg-3 offset-xl-2 py-7 py-lg-9 px-lg-7">
+
+                <!-- Heading -->
+                <h1 class="mb-1">Inleiding</h1>
+
+                <!-- Text -->
+                <p class="font-size-lg text-gray-700 mb-5">
+                    Hoe om met Agri24 te begin
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Hierdie handleiding sal jou help om met Agri24 te begin! Al die belangrike goed – hoe om jou plaas
+                    te vind en te eien, 'n markverslag te bestel, en profesionele waardasies aan te vra – is hier
+                    ge-dokumenteer. Indien jy nog vrae het, is jy welkom om ons per e-pos te kontakteer by <a
+                        href="mailto:support@agrista.com">support@agrista.com</a>.
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="hoeOmTeBegin">
+                    Hoe om te begin
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Die eerste stap is om jou plaas op ons kaart te vind. Daar is twee maniere om plase te soek:
+                </p>
+
+                <!-- List -->
+                <ol class="text-gray-700">
+                    <li><strong>Soek vir 'n amptelik geregistreerde plaasnaam</strong> deur om 'n sleutelwoord in die
+                        soekblokkie in te tik.
+                    </li>
+                    <li><strong>Die plaas op die kaart te indentifiseer</strong>, en op hom met die muis op die
+                        grondstuk te kliek.
+                    </li>
+                </ol>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/layout.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Vind uit hoe om 'n <a href="@@webRoot/hulp/eien-jou-plaas.html">plaas te registreer.</a>
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Indien jy vir iemand die plaas wat jy gevind wil deel, is dit maklik om die <a
+                        href="@@webRoot/hulp/deel-grondstuk.html">ligging en besonderhede te deel.</a> Dalk wil jy jou familie die
+                    plaas wys waarop julle almal groot geword het, of dalk wil jy 'n kli&euml;nt die ligging van jou
+                    plaas wys.
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Sodra jy jou plaas gevind het, is dit belangrik om die plaas as jou eie te registreer. Sodra jy
+                    eiendomme geregistreer het, kan jy dan deur ons 'n <a href="@@webRoot/hulp/bestel-markverslag.html">markverslag
+                    bestel</a> of <a href="@@webRoot/hulp/bestel-plaaswaardasie.html">professionele plaaswaardasie
+                    bestel</a>.
+                </p>
+
+            </div>
+
+            <!-- Spy list -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block px-lg-0 sidenav sidenav-right">
+                <div class="my-7 my-lg-9 px-lg-7 border-left-lg border-gray-300">
+
+                    <!-- Heading -->
+                    <h6 class="text-uppercase font-weight-bold">
+                        Spring na
+                    </h6>
+
+                    <!-- Links -->
+                    <ul class="list mb-0">
+                        <li class="list-item">
+                            <a class="list-link" href="#hoeOmTeBegin" data-toggle="smooth-scroll">Hoe om te begin</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div> <!-- / .row -->
+    </div>
+</section>
+
+<!-- JAVASCRIPT
+================================================== -->
+@@include("../partials/scripts.html")
+
+</body>
+</html>

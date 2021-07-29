@@ -12,12 +12,8 @@
     "title": "Farms",
     "type": "nav"
   },
-  "examples": {
-    "title": "Examples",
-    "type": "nav"
-  },
-  "blog": {
-    "title": "Blog",
+  "concepts": {
+    "title": "Concepts",
     "type": "nav"
   }
 }

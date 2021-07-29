@@ -10,14 +10,11 @@ const Feature = ({ text, icon }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "React Hooks for Data Fetching",
-  "es-ES": "Biblioteca React Hooks para la obtención de datos",
-  "zh-CN": "用于数据请求的 React Hooks 库",
-  ja: "データ取得のための React Hooks ライブラリ",
-  ko: "데이터 가져오기를 위한 React Hooks",
+  "en-ZA": "Get started with using Agrista",
+  "af-ZA": "Maak 'n begin om Agrista te gebruik",
 };
 
-export default () => {
+const Features = () => {
   const { locale } = useRouter();
   return (
     <div className="mx-auto max-w-full w-[880px] text-center px-4 mb-10">
@@ -192,3 +189,5 @@ export default () => {
     </div>
   );
 };
+
+export default Features;

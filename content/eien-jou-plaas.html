@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @@include("../partials/head.html", {
+    "pageTitle": "Agri24 Hulp - Eien jou plaas"
+    })
+</head>
+<body class="bg-light" style="padding-top: 84px;">
+
+<!-- MODALS
+==================================================-->
+<!--@@include("../partials/modals.html")-->
+
+<!-- NAVBAR
+================================================== -->
+@@include("../partials/navbar.html", {
+"classList": "navbar-light fixed-top bg-white border-bottom",
+"type": "fluid"
+})
+
+<!-- BREADCRUMB
+================================================== -->
+<nav class="d-lg-none bg-gray-800">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+
+                <!-- Breadcrumb -->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                <span class="text-white">
+                  Hulp
+                </span>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  Eien jou plaas
+                </span>
+                    </li>
+                </ol>
+
+            </div>
+            <div class="col-auto">
+
+                <!-- Toggler -->
+                <div class="navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse"
+                            aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</nav>
+
+<!-- CONTENT
+================================================== -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-xl-2 px-lg-0 border-bottom border-bottom-lg-0 border-right-lg border-gray-300 sidenav sidenav-left">
+
+                @@include("../partials/sidenav.html")
+
+            </div>
+            <div class="col-12 col-lg-6 col-xl-8 offset-lg-3 offset-xl-2 py-7 py-lg-9 px-lg-7">
+
+                <!-- Heading -->
+                <h1 class="mb-1">Eien jou plaas</h1>
+
+                <!-- Text -->
+                <p class="font-size-lg text-gray-700 mb-5">
+                    Registreer jou plaas om toegang na gratis mark inligting te bekom.
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Die hoof doel van Agri24 is om boere maklike toegang te gee aan inligting oor huidige mark
+                    toestande. Die bestel van markverslae is gratis vir boere wat grond besit of huur. Maatskappye wat
+                    marknarvorsing wil doen sal in toekoms subsripsies kan uitneem om inligting oor grond waardes te
+                    bekom. Dit is dus belangrik om jou eie plase te registreer om die gratis inligting te bekom.
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="vindJouPlaas">
+                    Vind jou plaas
+                </h3>
+
+                <!-- Text -->
+                <p>
+                    Soek vir plaas volgens die ofisi&euml;le naam deur om 'n sleutel word in te tik
+                    in die soek blokkie.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/search-results.png" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Die stelsel sal dan vir jou 'n paar moontlikhede plek of ofisi&euml;le plaasname gee om te
+                    selekteer. Kliek op een van die resultaate om outomaties na die plek op die kaart te zoom.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/selected-portion.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="laaiGrondstukke">
+                    Laai grondstukke in jou maandjie
+                </h3>
+
+                <!-- Text -->
+                <p>
+                    Nadat jy jou plaas gevind het, is dit belankrik om die plaas as jou eie te registreer. Sodra die
+                    plaas
+                    in jou profiel ge-registreer is, kan jy dan van ander dienste op die stelsel gebruik maak.
+                </p>
+
+                <!-- Text -->
+                <p>
+                    As eerste stap, kiek op die "Eien jou plaas" knoppie.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/share-land-parcel.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Elke keer as jy op die knoppie kliek, word die selekteerde grondstuk in jou maandjie gelaai. Bo regs
+                    op die skerm word vir jou aangedui hoe veel grondstukke jy al klaak in jou maandhjie gelaai is.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/shopping-cart-count.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="registeerPlase">
+                    Registreer jou plase
+                </h3>
+
+                <!-- Text -->
+                <p>
+                    Sodra jy al jou grondsukke gevind het, kliek dan op die maandjie om jou plase te registreer.
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Jy word dan aangestuur na 'n nuwe bladsy wat jou grondstukke wat langs mekaar l&ecirc; groepeer in
+                    plase.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/specify-farm-names.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Jy kan die plaas naam verander deur op die "Verander" knoppie te druk.
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Jy kan ook nog op hierdie stadium 'n grondstuk uit die plaas verwyder deur om op die tiekboks langs
+                    die grondstuk te
+                    kliek, en dan die item te verwyder.
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Sodat die grondstukke en plaasname reg lyk, Kliek op "Volgende" om jou persoonlike inligting in te
+                    vul.</p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/specify-personal-details.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p>
+                    Die laaste bladsy is 'n bevestiging dat jy suksevol ge-registreer is. Hou jou e-pos dop om jou
+                    regsitrasie te bevestig</p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/confirmation.png" class="img-fluid" alt="...">
+                </p>
+
+            </div>
+
+            <!-- Spy list -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block px-lg-0 sidenav sidenav-right">
+                <div class="my-7 my-lg-9 px-lg-7 border-left-lg border-gray-300">
+
+                    <!-- Heading -->
+                    <h6 class="text-uppercase font-weight-bold">
+                        Spring na
+                    </h6>
+
+                    <!-- Links -->
+                    <ul class="list mb-0">
+                        <li class="list-item">
+                            <a class="list-link" href="#vindJouPlaas" data-toggle="smooth-scroll">
+                                Vind jou plaas
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#laaiGrondstukke" data-toggle="smooth-scroll">
+                                Laai grondstukke in jou maandjie
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#registeerPlase" data-toggle="smooth-scroll">
+                                Registreer jou plase
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div> <!-- / .row -->
+    </div>
+</section>
+
+<!-- JAVASCRIPT
+================================================== -->
+@@include("../partials/scripts.html")
+
+</body>
+</html>

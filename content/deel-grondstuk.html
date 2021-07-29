@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @@include("../partials/head.html", {
+    "pageTitle": "Agri24 Hulp - Deel jou plaas"
+    })
+</head>
+<body class="bg-light" style="padding-top: 84px;">
+
+<!-- MODALS
+==================================================-->
+<!--@@include("../partials/modals.html")-->
+
+<!-- NAVBAR
+================================================== -->
+@@include("../partials/navbar.html", {
+"classList": "navbar-light fixed-top bg-white border-bottom",
+"type": "fluid"
+})
+
+<!-- BREADCRUMB
+================================================== -->
+<nav class="d-lg-none bg-gray-800">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+
+                <!-- Breadcrumb -->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                <span class="text-white">
+                  Hulp
+                </span>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  Deel jou plaas
+                </span>
+                    </li>
+                </ol>
+
+            </div>
+            <div class="col-auto">
+
+                <!-- Toggler -->
+                <div class="navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse"
+                            aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</nav>
+
+<!-- CONTENT
+================================================== -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-xl-2 px-lg-0 border-bottom border-bottom-lg-0 border-right-lg border-gray-300 sidenav sidenav-left">
+
+                @@include("../partials/sidenav.html")
+
+            </div>
+            <div class="col-12 col-lg-6 col-xl-8 offset-lg-3 offset-xl-2 py-7 py-lg-9 px-lg-7">
+
+                <!-- Heading -->
+                <h1 class="mb-1">Deel inligting met ander gebruikers</h1>
+
+                <!-- Text -->
+                <p class="font-size-lg text-gray-700 mb-5">
+                    Deel die inligting en ligging van 'n grondstuk met ander geruikers oor sosiale media of eenvoudig deur
+                    om 'n link te epos.
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Dit is maklik om die ligging en besonderhede te deel. Dalk wil jy jou familie die plaas wys waarop
+                    julle almal groot geword het, of dalk wil jy 'n kli&euml;nt die ligging van jou plaas wys.
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="deelGrondStukInligting">
+                    Deel grondstuk inligting
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Sodra jy op 'n grondstuk ge-kliek het om sy inligting te bekom, sal daar 'n knoppie wys wat jy kan
+                    kliek om die kaart soos hy nou lyk met iemand anders te deel.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/share-land-parcel.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Kliek op die "Deel kaart" knoppie. Jy kan dan kies watter metode jy wil gebruik om die inligting en
+                    kaart te deel.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/sharing-options.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Jy kan een van die volgende metodes kies om die inligting mee te deel.
+                </p>
+
+                <!-- Links -->
+                <ul class="text-gray-700">
+                    <li>
+                        e-pos
+                    </li>
+                    <li>
+                        WhatsApp
+                    </li>
+                    <li>
+                        Facebook Messenger
+                    </li>
+                    <li>
+                        Facebook
+                    </li>
+                    <li>
+                        Twitter
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <!-- Spy list -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block px-lg-0 sidenav sidenav-right">
+                <div class="my-7 my-lg-9 px-lg-7 border-left-lg border-gray-300">
+
+                    <!-- Heading -->
+                    <h6 class="text-uppercase font-weight-bold">
+                        Spring na
+                    </h6>
+
+                    <!-- Links -->
+                    <ul class="list mb-0">
+                        <li class="list-item">
+                            <a class="list-link" href="#deelGrondStukInligting" data-toggle="smooth-scroll">
+                                Deel grondstuk inligting
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div> <!-- / .row -->
+    </div>
+</section>
+
+<!-- JAVASCRIPT
+================================================== -->
+@@include("../partials/scripts.html")
+
+</body>
+</html>

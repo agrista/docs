@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @@include("../partials/head.html", {
+    "pageTitle": "Agri24 Hulp"
+    })
+</head>
+<body class="bg-light" style="padding-top: 84px;">
+
+<!-- MODALS
+==================================================-->
+<!--@@include("../partials/modals.html")-->
+
+<!-- NAVBAR
+================================================== -->
+@@include("../partials/navbar.html", {
+"classList": "navbar-light fixed-top bg-white border-bottom",
+"type": "fluid"
+})
+
+<!-- BREADCRUMB
+================================================== -->
+<nav class="d-lg-none bg-gray-800">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+
+                <!-- Breadcrumb -->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                <span class="text-white">
+                  Hulp
+                </span>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  Markverslag
+                </span>
+                    </li>
+                </ol>
+
+            </div>
+            <div class="col-auto">
+
+                <!-- Toggler -->
+                <div class="navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse"
+                            aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</nav>
+
+<!-- CONTENT
+================================================== -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-xl-2 px-lg-0 border-bottom border-bottom-lg-0 border-right-lg border-gray-300 sidenav sidenav-left">
+
+                @@include("../partials/sidenav.html")
+
+            </div>
+            <div class="col-12 col-lg-6 col-xl-8 offset-lg-3 offset-xl-2 py-7 py-lg-9 px-lg-7">
+
+                <!-- Heading -->
+                <h1 class="mb-1">Bestel 'n Markverslag</h1>
+
+                <!-- Text -->
+                <p class="font-size-lg text-gray-700 mb-5">
+                    Bepaal die waarde van jou plas gebaseerd op plaasverkope in die omgewing en grondgebruik van jou
+                    plaas
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Hier wys ons jou hoem om maklik 'n markverslag te bestel. Jy sal eers jou plaas moet registreer
+                    sodat ons te help om 'n waardeerder toe te ken.
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="bestelproses">
+                    Bestelproses
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Nadat jy 'n plaas registreer het, kliek op die "Bestel" skakel bo en selekteer dan die <strong>Markverslag</strong>
+                    opsie.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/select-product.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Jy word dan gevra om die onderverdelings te bevestig wat ja voorheen registreer is. Kliek dan op die
+                    <strong>Volgende</strong> knoppie.
+                </p>
+                <p class="text-gray-700">
+                    Op die volgende skerm maak ook seker dat jou persoonlike inligting korrek is. Kliek dan op die
+                    <strong>Volgende</strong> knoppie.
+                </p>
+                <p class="text-gray-700">
+                    In die laaste stap bevestig dan of jy wel die bestelling wil plaas. Die markverslag word deur
+                    Agrista verskaf en hulle sal jou dan per epos kontak sodra die verslag klaar is.
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Dit kan tot twee besigheids dae vat om die verslag voor te trek.
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="agtergrond">
+                    Plaas verkope
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Ons proseseer en stoor plaas verkope soos hulle ge-registreer word by die akte kantoor. Elke
+                    transaksie word met die behulp van satelietbeeld data ge-analiseer om te bepaal watter grondklas op
+                    die plaas voorkom. Tipiese grond klasses is dro&euml;land, besproeiing of weiding. Ons gebruik dan
+                    'n finansi&euml;le model om te bereken wat elke grond klas voor verkoop
+                    is.
+                </p>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Met 'n rekenaar algoritme alokeer ons hierdie waardes aan jou plaas volgens soortgelyke grond
+                    potensiaal en afstand.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/market-report/comparables.png" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="grondstukke">
+                    Grondstukke
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    Die grond stukke wat jy op die kaart selekteer kom vanaf die Landmeter Generaal. Soos jy grondstukke
+                    by jou plaas byvoeg, kan ons akuraat die oppervlaktes van verskillende grond klasse bereken.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/market-report/farm-portions.jpg" class="img-fluid" alt="...">
+                </p>
+
+                <!-- Divider -->
+                <hr class="border-gray-300 my-6">
+
+                <!-- Heading -->
+                <h3 class="font-weight-bold" id="grondwaardes">
+                    Grond Waardes
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700">
+                    In die verslag bereken ons dan die waarde per hektaar vir die verskillende grond klasse wat op die
+                    plaas voor kom. In die verslag is daar ook 'n tabel wat al die berekende waardes wys, en die die
+                    plaas verkope wat gebruik is om die waardes per hektaar te bereken.
+                </p>
+
+                <!-- Image -->
+                <p>
+                    <img src="@@webRoot/../img/docs/market-report/land-values.png" class="img-fluid" alt="...">
+                </p>
+
+            </div>
+
+            <!-- Spy list -->
+            <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block px-lg-0 sidenav sidenav-right">
+                <div class="my-7 my-lg-9 px-lg-7 border-left-lg border-gray-300">
+
+                    <!-- Heading -->
+                    <h6 class="text-uppercase font-weight-bold">
+                        Spring na
+                    </h6>
+
+                    <!-- Links -->
+                    <ul class="list mb-0">
+                        <li class="list-item">
+                            <a class="list-link" href="#bestelproses" data-toggle="smooth-scroll">
+                                Bestelproses
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#agtergrond" data-toggle="smooth-scroll">
+                                Agtergrond
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#grondstukke" data-toggle="smooth-scroll">
+                                Grondstukke
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list-link" href="#grondwaardes" data-toggle="smooth-scroll">
+                                Grond waardes
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div> <!-- / .row -->
+    </div>
+</section>
+
+<!-- JAVASCRIPT
+================================================== -->
+@@include("../partials/scripts.html")
+
+</body>
+</html>
