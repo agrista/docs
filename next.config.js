@@ -10,22 +10,6 @@ module.exports = withNextra({
     defaultLocale: "en-ZA",
   },
   redirects: () => {
-    return [
-      {
-        source: "/advanced/performance",
-        destination: "/docs/advanced/performance",
-        statusCode: 301,
-      },
-      {
-        source: "/advanced/cache",
-        destination: "/docs/advanced/cache",
-        statusCode: 301,
-      },
-      {
-        source: "/change-log",
-        destination: "/docs/change-log",
-        statusCode: 301,
-      },
-    ];
+    return [];
   },
 });
