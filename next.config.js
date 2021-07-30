@@ -5,7 +5,6 @@ const withNextra = require("nextra")({
 });
 
 module.exports = withNextra({
-  basePath: '/docs',
   i18n: {
     locales: ["en-ZA", "af-ZA"],
     defaultLocale: "en-ZA",
