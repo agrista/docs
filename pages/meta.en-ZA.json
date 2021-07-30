@@ -4,16 +4,17 @@
     "type": "nav",
     "hidden": true
   },
-  "docs": {
-    "title": "Docs",
+  "farmer": {
+    "title": "Farmer Manual",
     "type": "nav"
   },
-  "farms": {
-    "title": "Farms",
+  "admin": {
+    "title": "Agribusiness Manual",
     "type": "nav"
   },
   "concepts": {
-    "title": "Concepts",
-    "type": "nav"
+    "title": "Agribusiness Manual",
+    "type": "nav",
+    "hidden": true
   }
 }

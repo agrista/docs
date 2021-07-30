@@ -2,78 +2,25 @@
 title: Agrista Docs
 ---
 
-import Callout from 'nextra-theme-docs/callout'
-import Features from 'components/features'
-import Bleed from 'nextra-theme-docs/bleed'
+import {Title, Subtitle} from 'components/markdown'
 
+<Title center className="mt-8">Documentation</Title>
 
-{
-// wrapped with {} to mark it as javascript so mdx will not put it under a p tag
-}
-{<h1 className="text-center font-extrabold md:text-5xl mt-8">Documentation</h1>}
-
-<Bleed full><Features/></Bleed>
-
-Agrista provides a cloud platform for running agrifood supply chains.
-
-<Callout emoji="✅">
-  With SWR, components will get a stream of data updates <strong>constantly</strong> and <strong>automatically</strong>.<br/>
-  And the UI will be always <strong>fast</strong> and <strong>reactive</strong>.
-</Callout>
+<Subtitle center>Agrista provides a cloud platform for running agrifood supply chains.</Subtitle>
 
 ## Overview
 
-```jsx
-import useSWR from 'swr'
-
-function Profile() {
-  const { data, error } = useSWR('/api/user', fetcher)
-
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
-  return <div>hello {data.name}!</div>
-}
-```
-
-In this example, the `useSWR` hook accepts a `key` string and a `fetcher` function. `key` is a unique identifier of the data (normally the API URL)
-and will be passed to `fetcher`. `fetcher` can be any asynchronous function which returns the data, you can use the native fetch or tools like Axios.
-
-The hook returns 2 values: `data` and `error`, based on the status of the request.
+Agrista provides an cloud service for managing agricultural supply chains. At the heart of the service is an administration interface that can be used to manage farmer profiles and agribusiness processes. We provide an rapid registration tool that takes away the complexity of spatially locating farms. 
 
 ## Features
 
-With just one single line of code, you can simplify the logic of data fetching in your project, and also have all these amazing features out-of-the-box:
+With just a few clicks, you can start managing your supply chain business processing, with these amazing features out-of-the-box:
 
-- **Jamstack** oriented
-- **Fast**, **lightweight** and **reusable** data fetching
-- Built-in **cache** and request deduplication
-- **Real-time** experience
-- Transport and protocol agnostic
-- TypeScript ready
-- React Native
-
-SWR has you covered in all aspects of speed, correctness, and stability to help you build better experiences:
-
-- Fast page navigation
-- Polling on interval
-- Data dependency
-- Revalidation on focus
-- Revalidation on network recovery
-- Local mutation (Optimistic UI)
-- Smart error retry
-- Pagination and scroll position recovery
-- React Suspense
-- ...
-
-## Community
-
-<p className="flex h-6">
-  <img alt="stars" src="https://badgen.net/github/stars/vercel/swr" className="inline-block mr-2"/>
-  <img alt="downloads" src="https://badgen.net/npm/dt/swr" className="inline-block mr-2"/>
-  <img alt="license" src="https://badgen.net/npm/license/swr" className="inline-block mr-2"/>
-</p>
-
-SWR is created by the same team behind [Next.js](https://nextjs.org), the React framework.  
-Follow [@vercel](https://twitter.com/vercel) on Twitter for future project updates.
-
-Feel free to join the [discussions on GitHub](https://github.com/vercel/swr/discussions)!
+- **Spatially** referenced
+- Integrated **online marketing** tools
+- Built-in **farm production planning** tools
+- Managing **production costs** per field or livestock herd
+- Managing **purchase order** and **sales order** processes
+- Marketing **farmer profiles** online
+- Organising **farmer co-opoeratives**
+- Running **agrifood e-commerce** stores online

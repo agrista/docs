@@ -1,6 +1,8 @@
-const Subtitle = ({ children }) => {
+import cn from 'classnames'
+
+const Subtitle = ({ center, children }) => {
   return (
-    <p className="mb-10 text-2xl tracking-tight">
+    <p className={cn("mb-10 text-2xl tracking-tight", { "text-center": center })}>
       {children}
     </p>
   )
