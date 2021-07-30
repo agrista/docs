@@ -92,27 +92,31 @@ export default {
       case "af-ZA":
         return (
           <a
-            href="https://agrista.com/?utm_source=docs_af-za"
+            href="https://agrista.com"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center font-semibold text-current no-underline"
           >
-            <span className="mr-2">
-              <Logo height={38} />
-            </span>
+            <div className="pt-8 mt-12">
+              <p className="text-base text-blue-gray-400 xl:text-center">
+                © 2021 Agrista GmbH. All rights reserved.
+              </p>
+            </div>
           </a>
         );
       default:
         return (
           <a
-            href="https://vercel.com/?utm_source=swr"
+            href="https://agrista.com"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center font-semibold text-current no-underline"
           >
-            <span>
-              <Logo height={38} />
-            </span>
+            <div className="pt-8 mt-12">
+              <p className="text-base text-blue-gray-400 xl:text-center">
+                © 2021 Agrista GmbH. All rights reserved.
+              </p>
+            </div>
           </a>
         );
     }
