@@ -9,7 +9,6 @@ const TITLE_WITH_TRANSLATIONS = {
 export default {
   github: "https://github.com/agrista/docs",
   docsRepositoryBase: "https://github.com/agrista/docs/blob/master/pages",
-  path: '/docs',
   titleSuffix: " – Agrista",
   search: true,
   unstable_stork: true,
