@@ -52,11 +52,11 @@ export default {
       <meta httpEquiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="Agrista is an API for running connected agifood supply chains. Manage farm profile data, administer site-specific procurement, and run online procurement marketplaces."
+        content="Agrista is an ecommerce service for agrifood supply chains. Manage farm profile data, administer site-specific procurement, and run online procurement marketplaces."
       />
       <meta
         name="og:description"
-        content="Agrista is an API for running connected agifood supply chains. Manage farm profile data, administer site-specific procurement, and run online procurement marketplaces."
+        content="Agrista is an ecommerce service for agrifood supply chains. Manage farm profile data, administer site-specific procurement, and run online procurement marketplaces."
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@vercel" />
