@@ -4,16 +4,21 @@
     "type": "nav",
     "hidden": true
   },
-  "farmer": {
-    "title": "Farmer Manual",
+  "customer": {
+    "title": "Customer Manual",
     "type": "nav"
   },
-  "agribusiness": {
-    "title": "Agribusiness Manual",
+  "admin": {
+    "title": "Admin Manual",
     "type": "nav"
+  },
+  "developer": {
+    "title": "Developer Guide",
+    "type": "nav",
+    "hidden": true
   },
   "concepts": {
-    "title": "Agribusiness Manual",
+    "title": "Concepts",
     "type": "nav",
     "hidden": true
   }
